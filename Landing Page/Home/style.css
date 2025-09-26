@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --Font1: "Noto Sans", Cursive;
+    --Font2: "Mitre";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0C5446;
+    background-image: url(Img/Fundo/38950614-ai-gerado-cegueira-lei-para-justica-advogado-foto.jpeg);
+    filter: brightness(75%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    text-align: center;
+    display: block;
+}
+div.Logo{
+    padding: 10%;
+    width: 100%;
+
+}
+
+.Logo > img.FmsLOGO{
+    max-width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contaner1{
+    background-color: #0c5446ec;
+    min-width: auto;
+    width: 300px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Contaner1 > h2{
+    padding-top: 30px;
+    font-family: var(--Font1);
+}
+
+.Contaner1 > p{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: var(--Font2);
+}
+
+.Contaner2{
+    background-color: #0c5446ec;
+    width: 300px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Contaner2 > h2{
+    padding-top: 20px;
+    font-family: var(--Font1);
+}
+.Contaner2 > p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: var(--Font2);
+}
