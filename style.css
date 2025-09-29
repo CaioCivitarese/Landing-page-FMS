@@ -17,14 +17,21 @@
     box-sizing: border-box;
 }
 
+body{
+    display: block;
+}
+
 .Abas{
     text-align: center;
     font-weight: bolder;
     font-family:  var(--Font1);
     padding-top: 2%;
-    padding-left: 10%;
+    padding-left: 5%;
     max-width: 100%;
     max-height: 100%;
+    display: block;
+    white-space: nowrap;  /* evita quebra de linha */
+
 }
 
 .Abas > a{
@@ -69,10 +76,48 @@ div.Logo{
     padding: 10%;
 }
 
-main{
+.Ariasdeatuacao{
+    background-color: var(--color4);
+}
+
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Esquerda{
+    margin-left: 5%;
+}
+
+.Direita{
+    margin-left: 84%;
+}
+
+.Contaners {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #15423bf5;
+    flex-direction: row;  /* organiza na horizontal */
+    overflow-x: auto;     /* ativa rolagem horizontal */
+    scroll-behavior: smooth;
+    width: 100%;           /* largura visível */
+    padding: 10px;
+    margin: 20px auto;
+    white-space: nowrap;  /* evita quebra de linha */
+    padding-bottom: 2%;
+}
+
+.Contaners > div {
+    width: 40%;/* largura mínima de cada bloco */
+    margin: 0 10px;
+    padding: 15px;
+    background-color: var(--color3);
+    border-radius: 8px;
+    flex-shrink: 0;   /* impede que as caixas encolham */
 }
 
 h1{
@@ -80,8 +125,8 @@ h1{
     text-align: center;
     font-family: var(--Font1);
     color: white;
-    background-color: var(--color4);
     box-shadow: inset 0px 5px rgba(0, 0, 0, 0.096);
+
 }
 
 .Contaner1{
@@ -93,13 +138,13 @@ h1{
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left:  5%;
+    margin-top: 2%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.548);
 }
 
 .Contaner1 > h2{
-    padding-top: 30px;
+    padding-top: 25%;
     font-family: var(--Font1);
 }
 
@@ -117,13 +162,13 @@ h1{
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 5%;
+    margin-top: 2%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.548);
 }
 
 .Contaner2 > h2{
-    padding-top: 20px;
+    padding-top: 25%;
     font-family: var(--Font1);
 }
 .Contaner2 > p{
@@ -140,13 +185,13 @@ h1{
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 5%;
+    margin-top: 2%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.548);
 }
 
 .Contaner3 > h2{
-    padding-top: 20px;
+    padding-top: 25%;
     font-family: var(--Font1);
 }
 
@@ -164,13 +209,13 @@ h1{
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 5%;
+    margin-top: 2%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.548);
 }
 
 .Contaner4 > h2{
-    padding-top: 25px;
+    padding-top: 25%;
     font-family: var(--Font1);
 }
 
@@ -188,14 +233,13 @@ h1{
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 2px 0 4px rgba(0, 0, 0, 0.932);
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-top: 2%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.548);
 }
 
 .Contaner5 > h2{
-    padding-top: 25px;
+    padding-top: 25%;
     font-family: var(--Font1);
 }
 
